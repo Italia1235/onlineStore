@@ -1,9 +1,10 @@
 import React from 'react';
-import './App.css';
+
+import { Main } from './ui/main/Main';
 
 const App = React.memo(() => (
   <div>
-    <span>123</span>
+    <Main />
   </div>
 ));
 
