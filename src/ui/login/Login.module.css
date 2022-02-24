@@ -1,0 +1,8 @@
+.loginPage{
+    display: flex;
+    height: 90vh;
+    width: 100%;
+
+    justify-content: center;
+    flex-direction: column;
+}
