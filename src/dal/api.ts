@@ -9,7 +9,7 @@ export type LoginParamsType = {
 };
 
 export const UserApi = {
-  login() {
-    return instance.post<LoginParamsType>('user/login');
+  createUser(payload: LoginParamsType) {
+    return instance.post<LoginParamsType>('user/registration', payload);
   },
 };
